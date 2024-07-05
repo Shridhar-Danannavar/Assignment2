@@ -1,0 +1,79 @@
+
+body{
+    border: 1px solid blue;
+}
+#header{
+    background-color: burlywood;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+main{
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.topnav{
+    background-color: gray;
+    width: auto;
+    margin: 10px;
+    border: 1px solid blue;
+}
+.topnav a{
+    margin: 10px;
+    
+    display:inline-block;
+    padding:20px;
+}
+.topnav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(146, 176, 233);
+} 
+.sub{ 
+    background-color: gold;
+    margin: 5px 10px;
+    border: 1px solid blue;
+    padding: 10px;
+    text-align:left;   
+}
+
+.para{
+    background-color: bisque;
+    margin: 10px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+#section{
+    
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;
+    height: 90px;
+}
+
+#section1{
+    background-color: bisque;
+  border: 1px blue solid; 
+  width: 33.33%;
+  height: 90px;
+  margin:5px;
+}
+#section2{
+    background-color: bisque;
+  border: 1px blue solid; 
+  width: 50%;
+  height: 80px;
+  margin:5px;
+}
+
+footer{   
+    background-color: gray;
+    margin: 10px;
+    border: 1px solid blue;
+    padding:30px;
+    text-align: center;
+}
+ 
